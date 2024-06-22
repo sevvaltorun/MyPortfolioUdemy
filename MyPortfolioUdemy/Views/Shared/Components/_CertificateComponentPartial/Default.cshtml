@@ -1,0 +1,28 @@
+﻿@model List<MyPortfolioUdemy.DAL.Entities.Certificate>
+
+<section id="certificate" class="s-about target-section">
+
+    <div class="row about-content about-content--timeline">
+
+        <div class="col-full text-center">
+            <h3>Sertifikalarım</h3>
+        </div>
+        @foreach (var item in Model)
+        {
+            <div class="col-six tab-full left">
+                <div class="timeline">
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <h3>@item.Name</h3>
+                            <h5>@item.Date</h5>
+                        </div>
+                        <div class="timeline__desc">
+                            <p>@item.Organization</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+
+</section>

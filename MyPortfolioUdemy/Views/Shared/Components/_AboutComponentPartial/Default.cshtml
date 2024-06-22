@@ -1,0 +1,48 @@
+﻿@model List<MyPortfolioUdemy.DAL.Entities.Skill>
+<section id="about" class="s-about target-section">
+
+    <div class="row narrow section-intro has-bottom-sep">
+        <div class="col-full text-center">
+            <h3>Hakkımda</h3>
+            <h1>@ViewBag.aboutTitle</h1>
+            <p class="lead">@ViewBag.aboutSubDescription</p>
+        </div>
+    </div>
+
+    <div class="row about-content">
+
+        <div class="col-six tab-full left">
+            <h3>Kısa Bir Özgeçmiş</h3>
+            <p>@ViewBag.aboutDetails</p>
+        </div>
+
+        <div class="col-six tab-full right">
+            <h3>Programlama Dilleri Seviyeleri</h3>
+
+            <ul class="skill-bars">
+                @foreach(var item in Model)
+                {
+                    <li>
+                        
+                            <div class="progress progress-xs" style="width: @item.Value%"></div>
+                        
+                        <strong>@item.Title</strong>
+                    </li>
+
+                }
+            </ul>
+        </div>
+
+    </div> <!-- end about-content -->
+
+    <div class="row about-content about-content--buttons">
+
+        <div class="col-six tab-full left">
+            <a href="~/hola-master/pdf/Şevval TÖRÜN .pdf" class="btn btn--primary full-width" download="Şevval Törün . pdf">CV'mi İndirin!</a>
+        </div>
+        <div class="col-six tab-full right">
+            <a href="https://www.linkedin.com/in/%C5%9Fevvalt%C3%B6r%C3%BCn/" class="btn full-width">LinkedIn</a>
+        </div>
+
+    </div> <!-- end about-content buttons -->
+</section>

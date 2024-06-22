@@ -1,0 +1,38 @@
+﻿@model Certificate
+@{
+    ViewData["Title"] = "CreateCertificate";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+<div class="content">
+    <div class="container-fluid">
+        <h4 class="page-title">Sertifikalar</h4>
+        <div class="row">
+            <div class="col-md-12">
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">Sertifikalarımın Listesi</div>
+                    </div>
+                    <div class="card-body">
+                        <form method="post">
+                            <label>Sertikanın Adı</label>
+                            <input type="text" asp-for="Name" class="form-control" />
+                            <br />
+                            <label>Alınan Kurum</label>
+                            <input type="text" asp-for="Organization" class="form-control" />
+                            <br />
+                            <label>Tarih</label>
+                            <input type="text" asp-for="Date" class="form-control" />
+                            <br />
+
+                            <button class="btn btn-primary">Sertifikayı Ekle</button>
+                        </form>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
