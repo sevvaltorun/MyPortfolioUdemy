@@ -32,3 +32,5 @@ Horizontal Line:
 
 Horizontal Line:
 ***
+
+'Inline Code'
