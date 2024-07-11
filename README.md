@@ -16,4 +16,8 @@ My Portfolio adlı projem, kendi adıma oluşturduğum bir adet portfolyo sitesi
 * Context
 * Migration
 * View Component
-  
+
+Name | Surname
+-|-
+Şevval | Ceyda
+Törün | Su
