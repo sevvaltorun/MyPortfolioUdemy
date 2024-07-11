@@ -10,6 +10,8 @@
 * Student 5
 * Student 6
 
-*italik* yazı yazar
-**bold(kalın)** yazı yazar
-***hem bold hem de italik*** yazı yazar
+- *italik* yazı yazar
+
+- **bold(kalın)** yazı yazar
+
+- ***hem bold hem de italik*** yazı yazar
