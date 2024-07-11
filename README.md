@@ -18,7 +18,3 @@ My Portfolio adlı projem, kendi adıma oluşturduğum bir adet portfolyo sitesi
 * View Component
 
 ## Proje Görüntüleri
-
-- [x] First task
-- [x] Second task
-- [ ] Third task
