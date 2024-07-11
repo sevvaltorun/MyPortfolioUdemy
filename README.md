@@ -29,9 +29,6 @@
 
 Horizontal Line:
 ---
-Horizontal Line:
----------
+
 Horizontal Line:
 ***
-Horizontal Line:
-************
