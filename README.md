@@ -27,3 +27,11 @@
 2) Hello2
 3) Hello3
 
+Horizontal Line:
+---
+Horizontal Line:
+---------
+Horizontal Line:
+***
+Horizontal Line:
+************
