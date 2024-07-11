@@ -17,13 +17,3 @@ My Portfolio adlı projem, kendi adıma oluşturduğum bir adet portfolyo sitesi
 * Migration
 * View Component
   
-
-*italik* yazı yazar
-
-_italik_ yazı yazar 2
-
-**bold(kalın)** yazı yazar
-
-__bold__ yazı yazar 2
-
-***hem bold hem de italik*** yazı yazar
