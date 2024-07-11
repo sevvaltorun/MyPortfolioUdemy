@@ -33,6 +33,3 @@ Horizontal Line:
 Horizontal Line:
 ***
 
-'''
-print("hello");
-'''
